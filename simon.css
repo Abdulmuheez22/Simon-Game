@@ -198,7 +198,6 @@ h1{
 footer{
     width: 100%;
     height: 10px;
-    bottom: 0;
     align-items: center;
     display: flex;
     justify-content: flex-end;
@@ -234,4 +233,5 @@ h3{
     h1{
         font-size: 2rem;
     }
+
 }
