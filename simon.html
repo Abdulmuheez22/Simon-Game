@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+    <div id="overlay">
+        <h1>Simon Game</h1>
+        <button onclick="laptop()" class="love">Start Game</button>
+    </div>
+    <div id="overlay2">
+    <h3>🎉You Won!🎉</h3>
+    <button onclick="laff()">Click To Contiune</button>
+    </div>
+     <div id="overlay3">
+    <h3>❌You Lost❌</h3>
+    <button onclick="laf()">Restart</button>
+    </div>
+     <!-- <div id="overlay4">
+    <h3>🎉You Won!🎉</h3>
+    <button onclick="laf()">Click To Contiune</button>
+    </div> -->
+    <h1>Simon Game</h1>
+    <div class="group">
+        <div class="group1">
+    <div data-name="red" class="shape" id="shape1"></div>
+    <div data-name="green" class="shape" id="shape2"></div>
+    </div>
+    <div class="group2">
+    <div data-name="blue" class="shape" id="shape3"></div>
+    <div data-name="yellow" class="shape" id="shape4"></div>
+    </div>
+    </div>
+    <h3>Level: <span id="count">0</span></h3>
+    <footer>
+        &copy; Dev_Abdulmuheez 2025
+    </footer>
+    <script src="simon.js"></script>
+</body>
+</html>
